@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#EFE3E3;
+	}
+
+ header {
+	text-align: center;
+	font-size:18px;
+	color:#857575;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	background: #EFE3E3;
+	width: 960px;
+
+} 
+   
+
+ .navbar {
+    list-style-type: none;
+    margin-top: 60px;
+	padding:0;
+    overflow: hidden;
+    background-color:#EFE3E3;
+	position: fixed;
+    top: 0;
+	height: 50px;
+    width: 960px;
+} 
+
+.navbar a {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color:#E0CDCD;
+}
+
+img {
+	margin-left: 400px;
+	border-radius: 50%;
+	margin-top: 20px;
+	}
+	
+p{
+	text-align: center;
+	font-size:18px;
+	color:#857575;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	background: #EFE3E3;
+	margin-left: 250px;
+	width:600px;
+	
+	}
+
+.titulo{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color:#868282;
+	margin-left:250px;
+	
+	
+	}
+	
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin-left:500px;
+  margin-top:100px;
+  padding:10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+ 
+    
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  margin-top:100px;
+  padding:10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+.fa-github {
+	color:#000000;
+	padding:10px;
+}
+
+

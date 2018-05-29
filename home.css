@@ -1,0 +1,139 @@
+@charset "UTF-8";
+/* CSS Document */
+ 
+ body{
+	 
+	 background-color:#443F3F;
+	 
+}
+ 
+ h1 {
+	 
+	 align-content:center;
+	 margin-top: 350px;
+	 margin-left: 400px;
+	 font-size: 90px;
+	 color:#F2F2F2;
+	 
+	 	 
+ }
+ 
+ .ml13 {
+  font-size: 1.9em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-weight: 600;
+}
+
+.ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+ 
+ 
+ 
+ 
+ .container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.Rectangle_1, .Rectangle_2, .Rectangle_3 {
+    width: 35px;
+    height: 5px;
+    background-color: #EFEFEF;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .Rectangle_1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .Rectangle_2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .Rectangle_3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* .Rectangle_1 
+ {
+  background-color: #EEEEEE;
+  position: absolute;
+  left: 14px;
+  top: 23px;
+  width: 51px;
+  height: 8px;
+  z-index: 4;
+}
+
+.Rectangle_2 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 14px;
+  top: 44px;
+  width: 51px;
+  height: 8px;
+  z-index: 5;
+}
+ 
+ .Rectangle_3 {
+  background-color:#EEEEEE;
+  position: absolute;
+  left: 14px;
+  top: 65px;
+  width: 51px;
+  height: 8px;
+  z-index: 6;
+} */
+
+.dropbtn {
+    background-color:#443F3F;
+    color:#EFEFEF;
+    padding: 16px;
+    font-size: 16px;
+   	border:none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #443F3F;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#443F3F;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #443f3f}
+
+.show {display:block;}
