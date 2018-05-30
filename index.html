@@ -2,39 +2,71 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Resume</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-<header>
-   <h1>Mirelis Rivas</h1>
-</header>
 
-<div class="navbar" id="myNavbar">
-  <a href="home.html">Home</a>
-  <a href="resume.html">Resume</a>
-  <a href="portfolio.html">Portfolio</a>
+
+<link rel="stylesheet" type="text/css" href="home.css">
+
+<title>home</title>
+</head>
+
+<body>
+<div class="dropdown">
+  
+  
+  
+  <button onclick="myFunction()" class="dropbtn container" >
+<div class= "Rectangle_1">  </div>
+<div class= "Rectangle_2">  </div>
+<div class= "Rectangle_3">  </div>
+</button>
+ 
+  <div id="myDropdown" class="dropdown-content">
+    <a href="home.html">About Me</a>
+    <a href="resume.html">Resume</a>
+    <a href="portfolio.html">Portfolio</a>
+  </div>
 </div>
 
-<img id="foto" src="Images/Mirelis.jpg" alt="My photo" width="300" height="300">
-
-<article>
-  <h1 class="titulo">About Me</h1>
-  <p> I have been in the customes service industry for ten years. I love creating and designing and recently decided to learn web development and change carreer direction. I love writing, traveling, coffee shops and instagraming. Follow me, and feel free to contact me. </p>
-  
-  
-</article>
+<h1 class="ml13">Mirelis Rivas</h1>
 
 
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script>
+function myFunction(x) {
+    x.classList.toggle("change");
+}
+</script>
 
 
-<a href="https://www.linkedin.com/in/mirelisrivas/" class="fa fa-linkedin"></a>
+<script>
 
-<a href="https://www.instagram.com/miretravels/" class="fa fa-instagram"></a>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<a href="https://mirerivas.github.io"><i class="fa fa-github" style="font-size:36px"></i> </a>
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+
+<script src="app.js"></script>
 
 </body>
 </html>
-
